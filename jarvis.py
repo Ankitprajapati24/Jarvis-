@@ -72,7 +72,7 @@ if __name__ == "__main__":
             webbrowser.open("stackoverflow.com")
         
         elif 'play music' in query:
-            music_dir = 'C:\\Users\\vbardhamnamn\\Desktop\\song'
+            music_dir = 'https://music.youtube.com/'
             songs = os.listdir(music_dir)
             print(songs)
             os.startfile(os.path.join(music_dir,songs[0]))
@@ -82,5 +82,5 @@ if __name__ == "__main__":
             speak(f"sir, the time is{strTime}")
 
         elif ' open code' in query:
-            codePath = "C:\\Users\\vbardhamnamn\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+            codePath = "https://github.com/Ankitprajapati24"
             os.startfile(codePath)
